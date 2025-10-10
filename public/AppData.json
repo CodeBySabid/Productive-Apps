@@ -1,0 +1,385 @@
+[
+  {
+    "imageData": {
+      "title": "Trusted By Millions, Built For You",
+      "metrics": [
+        {
+          "name": "Total Downloads",
+          "value": "29.6M",
+          "change": "21% More Than Last Month"
+        },
+        {
+          "name": "Total Reviews",
+          "value": "906K",
+          "change": "46% More Than Last Month"
+        },
+        {
+          "name": "Active Apps",
+          "value": "132+",
+          "change": "31 More Will Launch"
+        }
+      ]
+    }
+  },
+  
+  {
+    "image": "https://placehold.co/100x100/A0C4FF/ffffff/png?text=Game",
+    "title": "Cosmic Drift",
+    "companyName": "StarLight Studios",
+    "id": 101,
+    "description": "An interstellar racing game with stunning visuals and competitive multiplayer modes.",
+    "size": 250,
+    "reviews": 15234,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 550 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 9684 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/BDB2FF/ffffff/png?text=Productivity",
+    "title": "FocusFlow Planner",
+    "companyName": "Productive Apps Inc.",
+    "id": 102,
+    "description": "The ultimate to-do list and time management tool with Pomodoro integration.",
+    "size": 45,
+    "reviews": 8901,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 201 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 6700 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFC6FF/ffffff/png?text=Social",
+    "title": "ConnectSphere",
+    "companyName": "Global Networks Ltd.",
+    "id": 103,
+    "description": "A new social platform focused on deep-dive community discussions and niche groups.",
+    "size": 88,
+    "reviews": 32560,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 5500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 12760 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFADAD/ffffff/png?text=Finance",
+    "title": "BudgetWise Tracker",
+    "companyName": "MoneyStream Solutions",
+    "id": 104,
+    "description": "Track your spending, set budgets, and achieve your financial goals effortlessly.",
+    "size": 60,
+    "reviews": 4877,
+    "ratingAvg": 4.5,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 2947 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFD6A5/ffffff/png?text=Health",
+    "title": "ZenLife Meditation",
+    "companyName": "Mindful Technologies",
+    "id": 105,
+    "description": "Guided meditations, sleep stories, and ambient sounds for stress reduction.",
+    "size": 180,
+    "reviews": 21005,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2555 },
+      { "name": "5 star", "count": 18000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/CAFFBF/ffffff/png?text=Education",
+    "title": "CodeQuest Academy",
+    "companyName": "FutureDev Labs",
+    "id": 106,
+    "description": "Learn programming with interactive lessons and coding challenges for all levels.",
+    "size": 120,
+    "reviews": 11500,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 7150 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/9BF6FF/ffffff/png?text=Game",
+    "title": "Mystic Dungeon",
+    "companyName": "Gamer's Vault",
+    "id": 107,
+    "description": "A classic roguelike RPG with procedurally generated levels and permadeath.",
+    "size": 155,
+    "reviews": 9876,
+    "ratingAvg": 4.1,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 3176 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/A0C4FF/ffffff/png?text=Travel",
+    "title": "WanderMap",
+    "companyName": "Explorer's Edge",
+    "id": 108,
+    "description": "Offline maps, travel guides, and itinerary planning for global adventurers.",
+    "size": 95,
+    "reviews": 17400,
+    "ratingAvg": 4.4,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/BDB2FF/ffffff/png?text=Photo",
+    "title": "Chroma Editor",
+    "companyName": "Pixel Perfect Labs",
+    "id": 109,
+    "description": "Professional-grade photo editing with advanced filters and layer support.",
+    "size": 110,
+    "reviews": 35122,
+    "ratingAvg": 4.7,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 22822 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFC6FF/ffffff/png?text=Music",
+    "title": "RhythmFlow Radio",
+    "companyName": "AudioStream Collective",
+    "id": 110,
+    "description": "Ad-free streaming with curated playlists for every mood and genre.",
+    "size": 70,
+    "reviews": 55900,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 25400 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFADAD/ffffff/png?text=Game",
+    "title": "Tiny Town Tycoon",
+    "companyName": "Simulate Everything",
+    "id": 111,
+    "description": "Build and manage your dream city in this addictive resource management simulation.",
+    "size": 90,
+    "reviews": 28900,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 16000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFD6A5/ffffff/png?text=Utility",
+    "title": "DriveSync Cloud",
+    "companyName": "DataSafe Systems",
+    "id": 112,
+    "description": "Secure cloud storage and file sharing with automatic backup features.",
+    "size": 30,
+    "reviews": 12050,
+    "ratingAvg": 4.6,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/CAFFBF/ffffff/png?text=Fitness",
+    "title": "ActivePath Trainer",
+    "companyName": "Health & Motion Inc.",
+    "id": 113,
+    "description": "Personalized workout plans, video guides, and progress tracking.",
+    "size": 140,
+    "reviews": 19500,
+    "ratingAvg": 4.8,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/9BF6FF/ffffff/png?text=Shopping",
+    "title": "StyleFind Market",
+    "companyName": "E-Commerce Titans",
+    "id": 114,
+    "description": "Discover the latest fashion trends and shop from independent designers.",
+    "size": 75,
+    "reviews": 6500,
+    "ratingAvg": 4.2,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2700 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/A0C4FF/ffffff/png?text=Weather",
+    "title": "Aura Weather Forecast",
+    "companyName": "Clear Skies Data",
+    "id": 115,
+    "description": "Hyper-local, minute-by-minute weather forecasts with beautiful animations.",
+    "size": 50,
+    "reviews": 10100,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 6300 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/BDB2FF/ffffff/png?text=Game",
+    "title": "Block Builder World",
+    "companyName": "Crafting Dreams Studio",
+    "id": 116,
+    "description": "An open-world sandbox game where you can build anything you imagine.",
+    "size": 300,
+    "reviews": 40210,
+    "ratingAvg": 4.4,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 19210 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFC6FF/ffffff/png?text=Productivity",
+    "title": "QuickNote Capture",
+    "companyName": "IdeaFlow Software",
+    "id": 117,
+    "description": "Fast and easy note-taking with voice-to-text and cross-device sync.",
+    "size": 40,
+    "reviews": 5120,
+    "ratingAvg": 4.9,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFADAD/ffffff/png?text=Food",
+    "title": "RecipeGenius",
+    "companyName": "Culinary Tech Co.",
+    "id": 118,
+    "description": "Find recipes based on ingredients you have in your pantry. Healthy meals made simple.",
+    "size": 105,
+    "reviews": 16000,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/FFD6A5/ffffff/png?text=Lifestyle",
+    "title": "HomePlant Guide",
+    "companyName": "GreenThumb Apps",
+    "id": 119,
+    "description": "Identify plants, get care tips, and set watering reminders for your indoor garden.",
+    "size": 65,
+    "reviews": 7500,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 550 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4100 }
+    ]
+  },
+  {
+    "image": "https://placehold.co/100x100/CAFFBF/ffffff/png?text=AR",
+    "title": "AR Visualizer 3D",
+    "companyName": "Immersive Reality Inc.",
+    "id": 120,
+    "description": "Place virtual furniture in your home before you buy using augmented reality.",
+    "size": 190,
+    "reviews": 13200,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 8000 }
+    ]
+  }
+]
