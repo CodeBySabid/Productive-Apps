@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router";
 import Home from "../Pages/Home";
-import Allapp from "../Componenets/Allapp";
 import MainLayout from "../Componenets/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import HeroSection from "../Componenets/HeroSection";
-import AppDeteils from "../Componenets/AppDeteils";
+import MainAllApps from "../Componenets/MainAllApps";
+import Installation from "../Componenets/Installation";
 
 const router = createBrowserRouter([
   {
@@ -22,12 +22,12 @@ const router = createBrowserRouter([
         element: <HeroSection></HeroSection>,
       },
       {
-        path: '/allapp',
-        element: <Allapp></Allapp>,
+        path: '/mainapp',
+        element: <MainAllApps></MainAllApps>,
       },
       {
-        path: '/f',
-        element: <AppDeteils></AppDeteils>,
+        path: '/installation',
+        element: <Installation></Installation>,
       },
     ]
   },
