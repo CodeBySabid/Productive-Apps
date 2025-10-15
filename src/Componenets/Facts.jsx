@@ -1,12 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import AllAppData from '../Hooks/AllAppData';
 import Allapp from './Allapp';
-// { allApp }
 const Facts = () => {
-    // const {title,name1, name2, name3, value1, value2, value3, change1, change2, change3} = allApp
-
     const [data, setApiData] = useState([]);
-
     useEffect(() => {
         fetch('./AppDetails.json')
             .then(response => response.json())

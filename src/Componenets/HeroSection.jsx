@@ -15,12 +15,12 @@ const HeroSection = () => {
                     Our goal is to turn your ideas into digital experiences that truly make an impact.
                 </p>
                 <div className='flex justify-center gap-12 max-lg:gap-6 max-lg:w-full mb-8'>
-                    <div className='max-md:w-[40%] max-sm:p-0.5 flex items-center border border-gray-400 rounded justify-center w-[200px] h-[55px] max-sm:h-[45px] max-[354px]:text-[80%]'>
-                        <NavLink to={'https://play.google.com/store/games?hl=en'}><img className='inline mr-3 max-sm:m-0.5' src={GooglePlay} alt="GooglePlay icon" /> Google Play</NavLink>
-                    </div>
-                    <div className='max-md:w-[40%] max-sm:p-0.5 flex items-center border border-gray-400 rounded justify-center w-[200px] h-[55px] max-sm:h-[45px]'>
-                        <NavLink to={'https://www.apple.com/app-store/'}><img className='inline mr-3 max-sm:m-0.5' src={AppStore} alt="GooglePlay icon" /> App Store</NavLink>
-                    </div>
+                    <NavLink to={'https://play.google.com/store/games?hl=en'} className='max-md:w-[40%] max-sm:p-0.5 flex items-center border border-gray-400 rounded justify-center w-[200px] h-[55px] max-sm:h-[45px] max-[354px]:text-[80%]'>
+                        <span><img className='inline mr-3 max-sm:m-0.5' src={GooglePlay} alt="GooglePlay icon" /> Google Play</span>
+                    </NavLink>
+                    <NavLink to={'https://www.apple.com/app-store/'} className='max-md:w-[40%] max-sm:p-0.5 flex items-center border border-gray-400 rounded justify-center w-[200px] h-[55px] max-sm:h-[45px]'>
+                        <span><img className='inline mr-3 max-sm:m-0.5' src={AppStore} alt="GooglePlay icon" /> App Store</span>
+                    </NavLink>
                 </div>
                 <img className='w-[90%]' src={Heroimg} alt="Heroimg" />
             </div>

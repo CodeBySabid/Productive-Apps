@@ -5,6 +5,7 @@ import ErrorPage from "../Pages/ErrorPage";
 import HeroSection from "../Componenets/HeroSection";
 import MainAllApps from "../Componenets/MainAllApps";
 import Installation from "../Componenets/Installation";
+import AppDeteils from "../Componenets/AppDeteils";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/installation',
         element: <Installation></Installation>,
+      },
+      {
+        path: '/appdeteils/:id',
+        element: <AppDeteils></AppDeteils>
       },
     ]
   },

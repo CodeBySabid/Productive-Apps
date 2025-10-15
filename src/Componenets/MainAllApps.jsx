@@ -7,8 +7,7 @@ const MainAllApps = () => {
     const { allApp } = AllAppData();
     const [search, setsearch] = useState('');
     const term = search.trim().toLocaleLowerCase();
-    const searchedApp = term ? allApp.filter(allApps => allApps.title.toLocaleLowerCase().includes(term)): allApp;
-    console.log(searchedApp)
+    const searchedApp = term ? allApp.filter(allApps => allApps.title.toLocaleLowerCase().includes(term)) : allApp;
     return (
         <div className=''>
             <div className='flex items-center flex-col max-md:pt-5 p-20 max-lg:px-2 max-lg:py-10'>
@@ -21,7 +20,6 @@ const MainAllApps = () => {
                             <input value={search} onChange={e => setsearch(e.target.value)} type='search' className='text-[#627382] max-xl:w-full max-sm:w-full w-[20vw]' name="" placeholder='search Apps' id="" />
                         </label>
                     </div>
-
                     <div className='2xl:w-[80%] xl:w-full justify-center items-center py-5 px-5 max-xl:w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
                         {
                             searchedApp.map(allApp => (
