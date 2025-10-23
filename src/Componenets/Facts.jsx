@@ -17,17 +17,17 @@ const Facts = () => {
                         <div className=' max-md:flex-col  max-md:gap-7 max-lg:w-[80%] flex max-lg:justify-between max-lg:gap-0 gap-30  '>
                             <div className='flex flex-col gap-1  max-md:gap-0 text-center'>
                                 <p className='text-white text-xl max-lg:text-lg'>{data.name1}</p>
-                                <h1 className='text-7xl  max-md:text-7xl max-lg:text-6xl max-sm:text-[14vw] font-semibold text-white'>{data.value1}</h1>
+                                <h1 className='text-7xl  max-md:text-7xl max-lg:text-6xl max-sm:text-[14vw] font-semibold text-white'>{data.value1}M</h1>
                                 <p className='text-white text-xl max-lg:text-lg'>{data.change1}</p>
                             </div>
                             <div className='flex flex-col gap-1  max-md:gap-0 text-center'>
                                 <p className='text-white text-xl max-lg:text-lg'>{data.name2}</p>
-                                <h1 className='text-7xl  max-md:text-7xl max-lg:text-6xl max-sm:text-[14vw] font-semibold text-white'>{data.value2}</h1>
+                                <h1 className='text-7xl  max-md:text-7xl max-lg:text-6xl max-sm:text-[14vw] font-semibold text-white'>{data.value2}K</h1>
                                 <p className='text-white text-xl max-lg:text-lg'>{data.change2}</p>
                             </div>
                             <div className='flex flex-col gap-1  max-md:gap-0 text-center'>
                                 <p className='text-white text-xl max-lg:text-lg'>{data.name3}</p>
-                                <h1 className='text-7xl  max-md:text-7xl max-lg:text-6xl max-sm:text-[14vw] font-semibold text-white'>{data.value3}</h1>
+                                <h1 className='text-7xl  max-md:text-7xl max-lg:text-6xl max-sm:text-[14vw] font-semibold text-white'>{data.value3}+</h1>
                                 <p className='text-white text-xl max-lg:text-lg'>{data.change3}</p>
                             </div>
                         </div>
