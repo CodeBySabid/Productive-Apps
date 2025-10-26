@@ -2,15 +2,25 @@ import { Search } from 'lucide-react';
 import React, { useState } from 'react';
 import AllAppData from '../Hooks/AllAppData';
 import Allapp from './Allapp';
+import LoadingSpinner from './LoadingSpinner';
 
 const MainAllApps = () => {
     const { allApp } = AllAppData();
     const [search, setsearch] = useState('');
+    const [loading, setLoading] = useState(false);
     const term = search.trim().toLocaleLowerCase();
     const searchedApp = term ? allApp.filter(allApps => allApps.title.toLocaleLowerCase().includes(term)) : allApp;
     const handleShowApp = () => {
         setsearch('')
-    }
+    };
+    const handleSearchchange = (e) => {
+        const value =e.target.value;
+        setsearch(value);
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false);
+        }, 100);
+    };
     return (
         <div className=''>
             <div className='flex items-center flex-col max-md:pt-5 p-20 max-lg:px-2 max-lg:py-10'>
@@ -20,10 +30,10 @@ const MainAllApps = () => {
                     <div className='w-full max-sm:flex-col items-center max-sm:gap-5 max-sm:items-start flex justify-between max-lg:px-4 pb-2'>
                         <h1 className='font-semibold text-[2vw] max-lg:text-[4vw] max-sm:text-[6vw]'>({searchedApp.length}) Apps Found</h1>
                         <label className='h-11 max-xl:h-9 max-sm:w-full input border-2 border-gray-400'>
-                            <input value={search} onChange={e => setsearch(e.target.value)} type='search' className='text-[#627382] max-xl:w-full max-sm:w-full w-[20vw]' name="" placeholder='search Apps' id="" />
+                            <input value={search} onChange={handleSearchchange} type='search' className='text-[#627382] max-xl:w-full max-sm:w-full w-[20vw]' name="" placeholder='search Apps' id="" />
                         </label>
                     </div>
-                    {searchedApp.length === 0 ? (
+                    {loading ? (<LoadingSpinner></LoadingSpinner>) : searchedApp.length === 0 ? (
                         <div className='text-center mt-10'>
                             <h2 className='text-2xl font-semibold text-gray-500'>
                                 No App Found

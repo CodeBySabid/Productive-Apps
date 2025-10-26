@@ -6,6 +6,7 @@ import img2 from '../assets/Assets/icon-ratings.png'
 import img3 from '../assets/Assets/icon-review.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ErrorPageApp from '../Pages/ErrorPageApp';
 
 const AppDeteils = () => {
     const { id } = useParams();
@@ -18,6 +19,9 @@ const AppDeteils = () => {
         setIsInstalled(alreadyInstalled);
     }, [app]);
     if (loading) return <p>Loading....</p>
+    if (!app) {
+        return <ErrorPageApp></ErrorPageApp>
+    }
     const { image, companyName, downloads, ratingAvg, reviews, size, ratings, description1, description2, description3 } = app || {}
     const maxValue = Math.max(...ratings.map(r => r.count));
     const InstallApp = () => {
@@ -25,7 +29,7 @@ const AppDeteils = () => {
         let updataApp = []
         if (existingApp) {
             const isDuplicate = existingApp.some(p => p.id === app.id)
-            if (isDuplicate) {
+            if(isDuplicate) {
                 return;
             }
             updataApp = [...existingApp, app]
